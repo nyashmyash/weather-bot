@@ -1,0 +1,2099 @@
+[
+  {
+    "model": "weather_app.city",
+    "pk": 1,
+    "fields": {
+      "name": "Астрахань",
+      "lon": "46.35000",
+      "lat": "48.04000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 2,
+    "fields": {
+      "name": "Барнаул",
+      "lon": "53.36000",
+      "lat": "83.76000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 3,
+    "fields": {
+      "name": "Брянск",
+      "lon": "53.25000",
+      "lat": "34.37000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 4,
+    "fields": {
+      "name": "Владивосток",
+      "lon": "43.11000",
+      "lat": "131.87000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 5,
+    "fields": {
+      "name": "Волгоград",
+      "lon": "48.72000",
+      "lat": "44.50000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 6,
+    "fields": {
+      "name": "Воронеж",
+      "lon": "51.67000",
+      "lat": "39.18000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 7,
+    "fields": {
+      "name": "Екатеринбург",
+      "lon": "56.85000",
+      "lat": "60.61000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 8,
+    "fields": {
+      "name": "Иваново",
+      "lon": "57.00000",
+      "lat": "40.97000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 9,
+    "fields": {
+      "name": "Ижевск",
+      "lon": "56.85000",
+      "lat": "53.20000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 10,
+    "fields": {
+      "name": "Иркутск",
+      "lon": "52.30000",
+      "lat": "104.30000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 11,
+    "fields": {
+      "name": "Казань",
+      "lon": "55.79000",
+      "lat": "49.12000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 12,
+    "fields": {
+      "name": "Калининград",
+      "lon": "54.71000",
+      "lat": "20.51000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 13,
+    "fields": {
+      "name": "Кемерово",
+      "lon": "55.33000",
+      "lat": "86.08000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 14,
+    "fields": {
+      "name": "Киров",
+      "lon": "58.60000",
+      "lat": "49.66000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 15,
+    "fields": {
+      "name": "Краснодар",
+      "lon": "45.04000",
+      "lat": "38.98000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 16,
+    "fields": {
+      "name": "Красноярск",
+      "lon": "56.02000",
+      "lat": "92.87000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 17,
+    "fields": {
+      "name": "Липецк",
+      "lon": "52.60000",
+      "lat": "39.57000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 18,
+    "fields": {
+      "name": "Махачкала",
+      "lon": "42.98000",
+      "lat": "47.50000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 19,
+    "fields": {
+      "name": "Набережные Челны",
+      "lon": "55.73000",
+      "lat": "52.41000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 20,
+    "fields": {
+      "name": "Нижний Новгород",
+      "lon": "56.33000",
+      "lat": "44.00000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 21,
+    "fields": {
+      "name": "Новокузнецк",
+      "lon": "53.76000",
+      "lat": "87.11000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 22,
+    "fields": {
+      "name": "Новосибирск",
+      "lon": "55.04000",
+      "lat": "82.93000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 23,
+    "fields": {
+      "name": "Омск",
+      "lon": "54.99000",
+      "lat": "73.37000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 24,
+    "fields": {
+      "name": "Оренбург",
+      "lon": "51.77000",
+      "lat": "55.10000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 25,
+    "fields": {
+      "name": "Пенза",
+      "lon": "53.20000",
+      "lat": "45.00000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 26,
+    "fields": {
+      "name": "Пермь",
+      "lon": "58.01000",
+      "lat": "56.25000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 27,
+    "fields": {
+      "name": "Ростов-на-Дону",
+      "lon": "47.23000",
+      "lat": "39.72000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 28,
+    "fields": {
+      "name": "Рязань",
+      "lon": "54.63000",
+      "lat": "39.69000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 29,
+    "fields": {
+      "name": "Самара",
+      "lon": "53.20000",
+      "lat": "50.15000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 30,
+    "fields": {
+      "name": "Санкт-Петербург",
+      "lon": "59.94000",
+      "lat": "30.31000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 31,
+    "fields": {
+      "name": "Саратов",
+      "lon": "51.54000",
+      "lat": "46.01000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 32,
+    "fields": {
+      "name": "Тольятти",
+      "lon": "53.53000",
+      "lat": "49.35000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 33,
+    "fields": {
+      "name": "Томск",
+      "lon": "56.50000",
+      "lat": "84.97000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 34,
+    "fields": {
+      "name": "Тула",
+      "lon": "54.20000",
+      "lat": "37.62000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 35,
+    "fields": {
+      "name": "Тюмень",
+      "lon": "57.15000",
+      "lat": "65.53000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 36,
+    "fields": {
+      "name": "Ульяновск",
+      "lon": "54.33000",
+      "lat": "48.39000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 37,
+    "fields": {
+      "name": "Уфа",
+      "lon": "54.74000",
+      "lat": "55.97000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 38,
+    "fields": {
+      "name": "Хабаровск",
+      "lon": "48.48000",
+      "lat": "135.08000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 39,
+    "fields": {
+      "name": "Чебоксары",
+      "lon": "56.13000",
+      "lat": "47.25000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 40,
+    "fields": {
+      "name": "Челябинск",
+      "lon": "55.15000",
+      "lat": "61.43000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 41,
+    "fields": {
+      "name": "Ярославль",
+      "lon": "57.63000",
+      "lat": "39.87000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 42,
+    "fields": {
+      "name": "Абу-Даби",
+      "lon": "24.47000",
+      "lat": "54.37000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 43,
+    "fields": {
+      "name": "Абуджа",
+      "lon": "9.06000",
+      "lat": "7.50000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 44,
+    "fields": {
+      "name": "Аддис-Абеба",
+      "lon": "9.02000",
+      "lat": "38.75000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 45,
+    "fields": {
+      "name": "Аккра",
+      "lon": "5.56000",
+      "lat": "-0.20000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 46,
+    "fields": {
+      "name": "Алжир",
+      "lon": "36.73000",
+      "lat": "3.09000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 47,
+    "fields": {
+      "name": "Амман",
+      "lon": "31.96000",
+      "lat": "35.95000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 48,
+    "fields": {
+      "name": "Амстердам",
+      "lon": "52.37000",
+      "lat": "4.89000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 49,
+    "fields": {
+      "name": "Андорра-ла-Велья",
+      "lon": "42.51000",
+      "lat": "1.52000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 50,
+    "fields": {
+      "name": "Анкара",
+      "lon": "39.92000",
+      "lat": "32.85000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 51,
+    "fields": {
+      "name": "Антананариву",
+      "lon": "-18.91000",
+      "lat": "47.54000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 52,
+    "fields": {
+      "name": "Апиа",
+      "lon": "-13.83000",
+      "lat": "-171.77000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 53,
+    "fields": {
+      "name": "Асмэра",
+      "lon": "15.34000",
+      "lat": "38.93000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 54,
+    "fields": {
+      "name": "Астана",
+      "lon": "51.18000",
+      "lat": "71.45000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 55,
+    "fields": {
+      "name": "Асунсьон",
+      "lon": "-25.29000",
+      "lat": "-57.65000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 56,
+    "fields": {
+      "name": "Афины",
+      "lon": "37.98000",
+      "lat": "23.73000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 57,
+    "fields": {
+      "name": "Ашхабад",
+      "lon": "37.95000",
+      "lat": "58.38000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 58,
+    "fields": {
+      "name": "Багдад",
+      "lon": "33.34000",
+      "lat": "44.40000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 59,
+    "fields": {
+      "name": "Баку",
+      "lon": "40.38000",
+      "lat": "49.89000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 60,
+    "fields": {
+      "name": "Бамако",
+      "lon": "12.65000",
+      "lat": "-8.00000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 61,
+    "fields": {
+      "name": "Банги",
+      "lon": "4.36000",
+      "lat": "18.56000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 62,
+    "fields": {
+      "name": "Бангкок",
+      "lon": "13.75000",
+      "lat": "100.50000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 63,
+    "fields": {
+      "name": "Бандар-Сери-Бегаван",
+      "lon": "4.89000",
+      "lat": "114.94000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 64,
+    "fields": {
+      "name": "Банжул",
+      "lon": "13.45000",
+      "lat": "-16.58000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 65,
+    "fields": {
+      "name": "Бастер",
+      "lon": "17.30000",
+      "lat": "-62.73000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 66,
+    "fields": {
+      "name": "Бейрут",
+      "lon": "33.89000",
+      "lat": "35.50000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 67,
+    "fields": {
+      "name": "Белград",
+      "lon": "44.80000",
+      "lat": "20.47000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 68,
+    "fields": {
+      "name": "Бельмопан",
+      "lon": "17.25000",
+      "lat": "-88.77000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 69,
+    "fields": {
+      "name": "Берлин",
+      "lon": "52.52000",
+      "lat": "13.41000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 70,
+    "fields": {
+      "name": "Берн",
+      "lon": "46.95000",
+      "lat": "7.45000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 71,
+    "fields": {
+      "name": "Бисау",
+      "lon": "11.86000",
+      "lat": "-15.60000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 72,
+    "fields": {
+      "name": "Бишкек",
+      "lon": "42.87000",
+      "lat": "74.59000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 73,
+    "fields": {
+      "name": "Богота",
+      "lon": "4.61000",
+      "lat": "-74.08000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 74,
+    "fields": {
+      "name": "Браззавиль",
+      "lon": "-4.27000",
+      "lat": "15.28000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 75,
+    "fields": {
+      "name": "Бразилия",
+      "lon": "-15.78000",
+      "lat": "-47.93000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 76,
+    "fields": {
+      "name": "Братислава",
+      "lon": "48.15000",
+      "lat": "17.11000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 77,
+    "fields": {
+      "name": "Бриджтаун",
+      "lon": "13.11000",
+      "lat": "-59.62000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 78,
+    "fields": {
+      "name": "Брюссель",
+      "lon": "50.85000",
+      "lat": "4.35000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 79,
+    "fields": {
+      "name": "Будапешт",
+      "lon": "47.50000",
+      "lat": "19.04000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 80,
+    "fields": {
+      "name": "Бужумбура",
+      "lon": "-3.38000",
+      "lat": "29.36000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 81,
+    "fields": {
+      "name": "Бухарест",
+      "lon": "44.43000",
+      "lat": "26.11000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 82,
+    "fields": {
+      "name": "Буэнос-Айрес",
+      "lon": "-34.61000",
+      "lat": "-58.38000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 83,
+    "fields": {
+      "name": "Вадуц",
+      "lon": "47.14000",
+      "lat": "9.52000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 84,
+    "fields": {
+      "name": "Валлетта",
+      "lon": "35.90000",
+      "lat": "14.51000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 85,
+    "fields": {
+      "name": "Варшава",
+      "lon": "52.23000",
+      "lat": "21.01000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 86,
+    "fields": {
+      "name": "Ватикан",
+      "lon": "41.90000",
+      "lat": "12.45000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 87,
+    "fields": {
+      "name": "Вашингтон",
+      "lon": "38.90000",
+      "lat": "-77.04000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 88,
+    "fields": {
+      "name": "Веллингтон",
+      "lon": "-41.29000",
+      "lat": "174.78000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 89,
+    "fields": {
+      "name": "Вена",
+      "lon": "48.21000",
+      "lat": "16.37000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 90,
+    "fields": {
+      "name": "Виктория",
+      "lon": "-4.62000",
+      "lat": "55.46000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 91,
+    "fields": {
+      "name": "Вильнюс",
+      "lon": "54.69000",
+      "lat": "25.28000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 92,
+    "fields": {
+      "name": "Виндхук",
+      "lon": "-22.56000",
+      "lat": "17.08000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 93,
+    "fields": {
+      "name": "Вьентьян",
+      "lon": "17.97000",
+      "lat": "102.60000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 94,
+    "fields": {
+      "name": "Габороне",
+      "lon": "-24.65000",
+      "lat": "25.91000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 95,
+    "fields": {
+      "name": "Гавана",
+      "lon": "23.13000",
+      "lat": "-82.38000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 96,
+    "fields": {
+      "name": "Гватемала",
+      "lon": "14.64000",
+      "lat": "-90.51000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 97,
+    "fields": {
+      "name": "Дакар",
+      "lon": "14.69000",
+      "lat": "-17.44000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 98,
+    "fields": {
+      "name": "Дакка",
+      "lon": "23.71000",
+      "lat": "90.41000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 99,
+    "fields": {
+      "name": "Дамаск",
+      "lon": "33.51000",
+      "lat": "36.29000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 100,
+    "fields": {
+      "name": "Джакарта",
+      "lon": "-6.21000",
+      "lat": "106.85000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 101,
+    "fields": {
+      "name": "Джибути",
+      "lon": "11.59000",
+      "lat": "43.15000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 102,
+    "fields": {
+      "name": "Джорджтаун",
+      "lon": "6.80000",
+      "lat": "-58.16000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 103,
+    "fields": {
+      "name": "Джуба",
+      "lon": "4.85000",
+      "lat": "31.58000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 104,
+    "fields": {
+      "name": "Дили",
+      "lon": "-8.56000",
+      "lat": "125.57000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 105,
+    "fields": {
+      "name": "Додома",
+      "lon": "-6.17000",
+      "lat": "35.74000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 106,
+    "fields": {
+      "name": "Доха",
+      "lon": "25.29000",
+      "lat": "51.53000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 107,
+    "fields": {
+      "name": "Дублин",
+      "lon": "53.33000",
+      "lat": "-6.25000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 108,
+    "fields": {
+      "name": "Душанбе",
+      "lon": "38.54000",
+      "lat": "68.78000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 109,
+    "fields": {
+      "name": "Ереван",
+      "lon": "40.18000",
+      "lat": "44.51000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 110,
+    "fields": {
+      "name": "Загреб",
+      "lon": "45.81000",
+      "lat": "15.98000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 111,
+    "fields": {
+      "name": "Исламабад",
+      "lon": "33.72000",
+      "lat": "73.04000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 112,
+    "fields": {
+      "name": "Кабул",
+      "lon": "34.53000",
+      "lat": "69.17000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 113,
+    "fields": {
+      "name": "Каир",
+      "lon": "30.06000",
+      "lat": "31.25000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 114,
+    "fields": {
+      "name": "Кампала",
+      "lon": "0.32000",
+      "lat": "32.58000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 115,
+    "fields": {
+      "name": "Канберра",
+      "lon": "-35.28000",
+      "lat": "149.13000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 116,
+    "fields": {
+      "name": "Каракас",
+      "lon": "10.49000",
+      "lat": "-66.88000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 117,
+    "fields": {
+      "name": "Кастри",
+      "lon": "14.00000",
+      "lat": "-61.01000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 118,
+    "fields": {
+      "name": "Катманду",
+      "lon": "27.70000",
+      "lat": "85.32000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 119,
+    "fields": {
+      "name": "Кигали",
+      "lon": "-1.95000",
+      "lat": "30.06000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 120,
+    "fields": {
+      "name": "Киев",
+      "lon": "50.45000",
+      "lat": "30.52000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 121,
+    "fields": {
+      "name": "Кингстаун",
+      "lon": "13.16000",
+      "lat": "-61.23000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 122,
+    "fields": {
+      "name": "Кингстон",
+      "lon": "18.00000",
+      "lat": "-76.79000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 123,
+    "fields": {
+      "name": "Киншаса",
+      "lon": "-4.33000",
+      "lat": "15.31000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 124,
+    "fields": {
+      "name": "Кито",
+      "lon": "-0.23000",
+      "lat": "-78.52000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 125,
+    "fields": {
+      "name": "Кишинёв",
+      "lon": "47.01000",
+      "lat": "28.86000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 126,
+    "fields": {
+      "name": "Коломбо",
+      "lon": "6.93000",
+      "lat": "79.85000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 127,
+    "fields": {
+      "name": "Конакри",
+      "lon": "9.54000",
+      "lat": "-13.68000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 128,
+    "fields": {
+      "name": "Копенгаген",
+      "lon": "55.68000",
+      "lat": "12.57000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 129,
+    "fields": {
+      "name": "Куала-Лумпур",
+      "lon": "3.14000",
+      "lat": "101.69000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 130,
+    "fields": {
+      "name": "Либревиль",
+      "lon": "0.39000",
+      "lat": "9.45000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 131,
+    "fields": {
+      "name": "Лилонгве",
+      "lon": "-13.97000",
+      "lat": "33.79000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 132,
+    "fields": {
+      "name": "Лима",
+      "lon": "-12.04000",
+      "lat": "-77.03000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 133,
+    "fields": {
+      "name": "Лиссабон",
+      "lon": "38.72000",
+      "lat": "-9.13000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 134,
+    "fields": {
+      "name": "Ломе",
+      "lon": "6.13000",
+      "lat": "1.22000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 135,
+    "fields": {
+      "name": "Лондон",
+      "lon": "51.51000",
+      "lat": "-0.13000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 136,
+    "fields": {
+      "name": "Луанда",
+      "lon": "-8.84000",
+      "lat": "13.23000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 137,
+    "fields": {
+      "name": "Лусака",
+      "lon": "-15.41000",
+      "lat": "28.29000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 138,
+    "fields": {
+      "name": "Любляна",
+      "lon": "46.05000",
+      "lat": "14.51000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 139,
+    "fields": {
+      "name": "Люксембург",
+      "lon": "49.61000",
+      "lat": "6.13000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 140,
+    "fields": {
+      "name": "Маджуро",
+      "lon": "7.09000",
+      "lat": "171.38000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 141,
+    "fields": {
+      "name": "Мадрид",
+      "lon": "40.42000",
+      "lat": "-3.70000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 142,
+    "fields": {
+      "name": "Малабо",
+      "lon": "3.76000",
+      "lat": "8.78000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 143,
+    "fields": {
+      "name": "Мале",
+      "lon": "4.18000",
+      "lat": "73.51000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 144,
+    "fields": {
+      "name": "Манагуа",
+      "lon": "12.13000",
+      "lat": "-86.25000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 145,
+    "fields": {
+      "name": "Манама",
+      "lon": "26.23000",
+      "lat": "50.59000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 146,
+    "fields": {
+      "name": "Манила",
+      "lon": "14.60000",
+      "lat": "120.98000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 147,
+    "fields": {
+      "name": "Мапуту",
+      "lon": "-25.97000",
+      "lat": "32.58000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 148,
+    "fields": {
+      "name": "Масеру",
+      "lon": "-29.32000",
+      "lat": "27.48000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 149,
+    "fields": {
+      "name": "Маскат",
+      "lon": "23.58000",
+      "lat": "58.41000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 150,
+    "fields": {
+      "name": "Мбабане",
+      "lon": "-26.32000",
+      "lat": "31.13000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 151,
+    "fields": {
+      "name": "Мехико",
+      "lon": "19.43000",
+      "lat": "-99.13000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 152,
+    "fields": {
+      "name": "Минск",
+      "lon": "53.90000",
+      "lat": "27.57000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 153,
+    "fields": {
+      "name": "Могадишо",
+      "lon": "2.04000",
+      "lat": "45.34000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 154,
+    "fields": {
+      "name": "Монако",
+      "lon": "43.73000",
+      "lat": "7.42000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 155,
+    "fields": {
+      "name": "Монровия",
+      "lon": "6.30000",
+      "lat": "-10.80000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 156,
+    "fields": {
+      "name": "Монтевидео",
+      "lon": "-34.90000",
+      "lat": "-56.19000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 157,
+    "fields": {
+      "name": "Морони",
+      "lon": "-11.70000",
+      "lat": "43.26000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 158,
+    "fields": {
+      "name": "Москва",
+      "lon": "55.75000",
+      "lat": "37.62000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 159,
+    "fields": {
+      "name": "Найроби",
+      "lon": "-1.28000",
+      "lat": "36.82000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 160,
+    "fields": {
+      "name": "Нассау",
+      "lon": "25.06000",
+      "lat": "-77.34000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 161,
+    "fields": {
+      "name": "Нджамена",
+      "lon": "12.11000",
+      "lat": "15.04000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 162,
+    "fields": {
+      "name": "Ниамей",
+      "lon": "13.51000",
+      "lat": "2.11000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 163,
+    "fields": {
+      "name": "Никосия",
+      "lon": "35.18000",
+      "lat": "33.36000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 164,
+    "fields": {
+      "name": "Нуакшот",
+      "lon": "18.09000",
+      "lat": "-15.98000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 165,
+    "fields": {
+      "name": "Нукуалофа",
+      "lon": "-21.14000",
+      "lat": "-175.20000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 166,
+    "fields": {
+      "name": "Нью-Дели",
+      "lon": "28.64000",
+      "lat": "77.22000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 167,
+    "fields": {
+      "name": "Осло",
+      "lon": "59.91000",
+      "lat": "10.75000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 168,
+    "fields": {
+      "name": "Оттава",
+      "lon": "45.41000",
+      "lat": "-75.70000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 169,
+    "fields": {
+      "name": "Паликир",
+      "lon": "6.92000",
+      "lat": "158.16000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 170,
+    "fields": {
+      "name": "Панама",
+      "lon": "8.99000",
+      "lat": "-79.52000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 171,
+    "fields": {
+      "name": "Парамарибо",
+      "lon": "5.87000",
+      "lat": "-55.17000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 172,
+    "fields": {
+      "name": "Париж",
+      "lon": "48.85000",
+      "lat": "2.35000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 173,
+    "fields": {
+      "name": "Пекин",
+      "lon": "39.91000",
+      "lat": "116.40000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 174,
+    "fields": {
+      "name": "Пномпень",
+      "lon": "11.56000",
+      "lat": "104.92000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 175,
+    "fields": {
+      "name": "Подгорица",
+      "lon": "42.44000",
+      "lat": "19.26000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 176,
+    "fields": {
+      "name": "Порт-Вила",
+      "lon": "-17.74000",
+      "lat": "168.31000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 177,
+    "fields": {
+      "name": "Порт-Луи",
+      "lon": "-20.16000",
+      "lat": "57.50000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 178,
+    "fields": {
+      "name": "Порт-Морсби",
+      "lon": "-9.48000",
+      "lat": "147.15000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 179,
+    "fields": {
+      "name": "Порт-о-Пренс",
+      "lon": "18.54000",
+      "lat": "-72.34000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 180,
+    "fields": {
+      "name": "Порт-оф-Спейн",
+      "lon": "10.67000",
+      "lat": "-61.52000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 181,
+    "fields": {
+      "name": "Порто-Ново",
+      "lon": "6.50000",
+      "lat": "2.60000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 182,
+    "fields": {
+      "name": "Прага",
+      "lon": "50.09000",
+      "lat": "14.42000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 183,
+    "fields": {
+      "name": "Прая",
+      "lon": "14.93000",
+      "lat": "-23.51000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 184,
+    "fields": {
+      "name": "Претория",
+      "lon": "-25.74000",
+      "lat": "28.19000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 185,
+    "fields": {
+      "name": "Приштина",
+      "lon": "42.67000",
+      "lat": "21.17000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 186,
+    "fields": {
+      "name": "Пхеньян",
+      "lon": "39.03000",
+      "lat": "125.75000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 187,
+    "fields": {
+      "name": "Рабат",
+      "lon": "34.01000",
+      "lat": "-6.83000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 188,
+    "fields": {
+      "name": "Рейкьявик",
+      "lon": "64.14000",
+      "lat": "-21.90000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 189,
+    "fields": {
+      "name": "Рига",
+      "lon": "56.95000",
+      "lat": "24.11000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 190,
+    "fields": {
+      "name": "Рим",
+      "lon": "41.89000",
+      "lat": "12.51000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 191,
+    "fields": {
+      "name": "Розо",
+      "lon": "15.30000",
+      "lat": "-61.39000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 192,
+    "fields": {
+      "name": "Сан-Марино",
+      "lon": "43.94000",
+      "lat": "12.45000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 193,
+    "fields": {
+      "name": "Сан-Сальвадор",
+      "lon": "13.69000",
+      "lat": "-89.19000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 194,
+    "fields": {
+      "name": "Сан-Томе",
+      "lon": "0.34000",
+      "lat": "6.73000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 195,
+    "fields": {
+      "name": "Сан-Хосе",
+      "lon": "9.93000",
+      "lat": "-84.08000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 196,
+    "fields": {
+      "name": "Сана",
+      "lon": "15.35000",
+      "lat": "44.21000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 197,
+    "fields": {
+      "name": "Санто-Доминго",
+      "lon": "18.47000",
+      "lat": "-69.89000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 198,
+    "fields": {
+      "name": "Сантьяго",
+      "lon": "-33.46000",
+      "lat": "-70.65000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 199,
+    "fields": {
+      "name": "Сараево",
+      "lon": "43.85000",
+      "lat": "18.36000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 200,
+    "fields": {
+      "name": "Сент-Джонс",
+      "lon": "17.12000",
+      "lat": "-61.84000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 201,
+    "fields": {
+      "name": "Сент-Джоржес",
+      "lon": "12.05000",
+      "lat": "-61.75000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 202,
+    "fields": {
+      "name": "Сеул",
+      "lon": "37.57000",
+      "lat": "126.98000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 203,
+    "fields": {
+      "name": "Сингапур",
+      "lon": "1.29000",
+      "lat": "103.85000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 204,
+    "fields": {
+      "name": "Скопье",
+      "lon": "42.00000",
+      "lat": "21.43000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 205,
+    "fields": {
+      "name": "София",
+      "lon": "42.70000",
+      "lat": "23.32000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 206,
+    "fields": {
+      "name": "Стокгольм",
+      "lon": "59.33000",
+      "lat": "18.06000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 207,
+    "fields": {
+      "name": "Сува",
+      "lon": "-18.14000",
+      "lat": "178.44000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 208,
+    "fields": {
+      "name": "Сукре",
+      "lon": "-19.03000",
+      "lat": "-65.26000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 209,
+    "fields": {
+      "name": "Тайбэй",
+      "lon": "25.05000",
+      "lat": "121.53000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 210,
+    "fields": {
+      "name": "Таллинн",
+      "lon": "59.44000",
+      "lat": "24.75000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 211,
+    "fields": {
+      "name": "Ташкент",
+      "lon": "41.26000",
+      "lat": "69.22000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 212,
+    "fields": {
+      "name": "Тбилиси",
+      "lon": "41.69000",
+      "lat": "44.83000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 213,
+    "fields": {
+      "name": "Тегеран",
+      "lon": "35.69000",
+      "lat": "51.42000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 214,
+    "fields": {
+      "name": "Тегусигальпа",
+      "lon": "14.08000",
+      "lat": "-87.21000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 215,
+    "fields": {
+      "name": "Тирана",
+      "lon": "41.33000",
+      "lat": "19.82000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 216,
+    "fields": {
+      "name": "Токио",
+      "lon": "35.69000",
+      "lat": "139.69000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 217,
+    "fields": {
+      "name": "Триполи",
+      "lon": "32.89000",
+      "lat": "13.19000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 218,
+    "fields": {
+      "name": "Тунис",
+      "lon": "36.82000",
+      "lat": "10.17000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 219,
+    "fields": {
+      "name": "Тхимпху",
+      "lon": "27.47000",
+      "lat": "89.64000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 220,
+    "fields": {
+      "name": "Уагадугу",
+      "lon": "12.37000",
+      "lat": "-1.53000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 221,
+    "fields": {
+      "name": "Улан-Батор",
+      "lon": "47.91000",
+      "lat": "106.88000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 222,
+    "fields": {
+      "name": "Фритаун",
+      "lon": "8.49000",
+      "lat": "-13.24000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 223,
+    "fields": {
+      "name": "Ханой",
+      "lon": "21.02000",
+      "lat": "105.84000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 224,
+    "fields": {
+      "name": "Хараре",
+      "lon": "-17.83000",
+      "lat": "31.05000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 225,
+    "fields": {
+      "name": "Хартум",
+      "lon": "15.55000",
+      "lat": "32.53000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 226,
+    "fields": {
+      "name": "Хельсинки",
+      "lon": "60.17000",
+      "lat": "24.94000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 227,
+    "fields": {
+      "name": "Хониара",
+      "lon": "-9.43000",
+      "lat": "159.95000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 228,
+    "fields": {
+      "name": "Эль-Кувейт",
+      "lon": "29.37000",
+      "lat": "47.98000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 229,
+    "fields": {
+      "name": "Эр-Рияд",
+      "lon": "24.69000",
+      "lat": "46.72000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 230,
+    "fields": {
+      "name": "Южная Тарава",
+      "lon": "1.33000",
+      "lat": "172.98000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 231,
+    "fields": {
+      "name": "Ямусукро",
+      "lon": "6.82000",
+      "lat": "-5.28000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 232,
+    "fields": {
+      "name": "Ярен",
+      "lon": "-0.55000",
+      "lat": "166.93000"
+    }
+  },
+  {
+    "model": "weather_app.city",
+    "pk": 233,
+    "fields": {
+      "name": "Яунде",
+      "lon": "3.87000",
+      "lat": "11.52000"
+    }
+  }
+]

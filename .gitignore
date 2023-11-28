@@ -1,0 +1,5 @@
+*.pyc
+__pycache
+.pytest_cache
+.handler-saves
+db.sqlite3
