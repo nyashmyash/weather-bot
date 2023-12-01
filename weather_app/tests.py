@@ -1,11 +1,15 @@
 import unittest
+from unittest import mock
 
 from django.test import TestCase
+
 from .models import City
 import json
 import decimal
 
-from .yandex_.json_manager import get_current_weather, get_forecast_weather
+
+from weather.yandex import YandexClient
+from weather.services import WeatherService
 
 
 class CityModelTestCase(TestCase):
@@ -33,7 +37,11 @@ class YandexTestCase(TestCase):
     def test_weather_data(self):
         with open('test.json', 'r') as file:
             json_data = json.load(file)
-            data = get_current_weather(json_data)
+            yandex_client_mock = mock.Mock(spec=YandexClient)
+            yandex_client_mock.forecast.return_value = json_data
+            ws = WeatherService(yandex_client_mock)
+
+            data = ws.get_current_weather(55.7, 37.6)
             self.assertEqual(data, {
                 'pressure_mm': 725,
                 'temp': 2,
@@ -42,7 +50,10 @@ class YandexTestCase(TestCase):
     def test_forecast_get_data(self):
         with open('test.json', 'r') as file:
             json_data = json.load(file)
-            data = get_forecast_weather(json_data)
+            yandex_client_mock = mock.Mock(spec=YandexClient)
+            yandex_client_mock.forecast.return_value = json_data
+            ws = WeatherService(yandex_client_mock)
+            data = ws.get_forecast_weather(55.7, 37.6)
             self.assertEqual(data, {
                 'pressure_mm': 725,
                 'temp': 3,
@@ -51,7 +62,10 @@ class YandexTestCase(TestCase):
     def test_weather_fail(self):
         with open('test.json', 'r') as file:
             json_data = json.load(file)
-            data = get_current_weather(json_data)
+            yandex_client_mock = mock.Mock(spec=YandexClient)
+            yandex_client_mock.forecast.return_value = json_data
+            ws = WeatherService(yandex_client_mock)
+            data = ws.get_current_weather(55.7, 37.6)
             self.assertNotEqual(data, {
                 'pressure_mm': 726,
                 'temp': 5,
@@ -60,8 +74,10 @@ class YandexTestCase(TestCase):
     def test_forecast_fail(self):
         with open('test.json', 'r') as file:
             json_data = json.load(file)
-            # Здесь вы можете провести тестирование JSON данных
-            data = get_forecast_weather(json_data)
+            yandex_client_mock = mock.Mock(spec=YandexClient)
+            yandex_client_mock.forecast.return_value = json_data
+            ws = WeatherService(yandex_client_mock)
+            data = ws.get_forecast_weather(55.7, 37.6)
             self.assertNotEqual(data, {
                 'pressure_mm': 732,
                 'temp': -3,

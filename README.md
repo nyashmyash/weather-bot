@@ -16,4 +16,4 @@ LIMIT = 1 выборка из прогнозов
 
 Можно делать запросы и общаться с ботом
 
-manage.py tests weather_app запускают несколько тестов 
+manage.py test weather_app.tests запускают несколько тестов 
