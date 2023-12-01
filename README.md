@@ -10,8 +10,9 @@
 
 В settings.py проставить настройки
 
-TELEGRAM_BOT_API_KEY = ''
-YANDEX_API_KEY = ''
+TELEGRAM_BOT_API_KEY = '' ключ бота телеграмм
+API_KEY = '' для Яндекса
+LIMIT = 1 выборка из прогнозов
 
 Можно делать запросы и общаться с ботом
 
