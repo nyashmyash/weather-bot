@@ -1,22 +1,19 @@
 # Create your views here.
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpRequest
 from django.views.decorators.cache import cache_page
+from dependency_injector.wiring import inject, Provide
+from weather.containers import Container
+from weather.services import WeatherService
+from .repository import CityRepository
 
-from .yandex.api_weather import get_req_yandex
-from .yandex.json_manager import get_current_weather
 
-
+@inject
 @cache_page(60 * 30)  # кешировать ответ на 30 минут
-def get_weather(request) -> HttpResponse:
+def get_weather(request: HttpRequest,
+                weather_service: WeatherService = Provide[Container.weather_service], ) -> HttpResponse:
     city = request.GET.get('city', "")
+    c = CityRepository.get_city(city)
+    if not c:
+        return HttpResponse(str({'error': 'Город не указан'}))
 
-    if city == '':
-        return HttpResponse(str({'error': 'Город не указан'}))
-    response = get_req_yandex(city)
-    if not response:
-        return HttpResponse(str({'error': 'Город не указан'}))
-    if response.status_code == 200:
-        # Обработка полученных данных
-        return HttpResponse(content=str(get_current_weather(response.json())))
-    else:
-        return HttpResponse(str({'error': 'Ошибка в получении данных'}))
+    return HttpResponse(content=str(weather_service.get_current_weather(c.lat, c.lon)))

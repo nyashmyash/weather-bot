@@ -2,11 +2,13 @@ from django.core.management.base import BaseCommand
 from django.conf import settings
 from telebot import types
 from telebot import TeleBot
-from ...yandex.cities_map import cities_map
-from ...yandex.api_weather import get_req_yandex
-from ...yandex.json_manager import get_forecast_weather
+from dependency_injector.wiring import inject, Provide
+from ...repository import CityRepository
+from weather.containers import Container
+from weather.services import WeatherService
+from weather import container
 
-
+#container.wire(modules=[__name__])
 bot = TeleBot(settings.TELEGRAM_BOT_API_KEY, threaded=False)
 
 
@@ -19,7 +21,7 @@ class Command(BaseCommand):
         bot.infinity_polling()						# Бесконечный цикл бота
 
 
-def header_msg(message, text):
+def header_msg(message, text: str):
     user_markup = types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True, one_time_keyboard=True)
     button_weather = types.KeyboardButton(text="Узнать погоду", request_contact=False)
     user_markup.add(button_weather)
@@ -32,11 +34,13 @@ def start(message):
 
 
 @bot.message_handler(content_types=['text'])
-def weather(message):
-    if message.text in cities_map:
-        data = get_req_yandex(message.text)
-        weather = get_forecast_weather(data.json())
-        out = f'''температура завтра днем {weather["temp"]}, 
+@inject
+def weather(message,  weather_service: WeatherService = Provide[Container.weather_service],):
+    c = CityRepository.get_city(message.text)
+    if c:
+        #pr = Provide[Container.weather_service]
+        weather = weather_service.get_current_weather(c.lat, c.lon)
+        out = f'''температура завтра днем {weather["temp"]},
         ветер {weather["wind_speed"]},
         давление {weather["pressure_mm"]}'''
         header_msg(message, out)

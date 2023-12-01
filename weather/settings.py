@@ -41,8 +41,8 @@ INSTALLED_APPS = [
 ]
 
 TELEGRAM_BOT_API_KEY = ''
-YANDEX_API_KEY = ''
-
+API_KEY = ''
+LIMIT = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

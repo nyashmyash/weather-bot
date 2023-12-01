@@ -5,7 +5,7 @@ from .models import City
 import json
 import decimal
 
-from .yandex.json_manager import get_current_weather, get_forecast_weather
+from .yandex_.json_manager import get_current_weather, get_forecast_weather
 
 
 class CityModelTestCase(TestCase):
